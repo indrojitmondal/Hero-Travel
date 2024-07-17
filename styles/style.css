@@ -56,6 +56,64 @@ height: 46.8px;
   .menubar{
     display: none;
   }
+
+  /* Explore your travel */
+  .explore-your-travel{
+    /* position: relative; */
+    height: 500px;
+    /* border: 2px solid red; */
+   
+    width: 90%;
+    margin: 2rem auto;
+    display: flex;
+    flex-direction: column; 
+    justify-content: center;
+    align-items: center;
+
+    border-radius: 16px;
+
+    background: linear-gradient(180.00deg, rgba(19, 19, 24, 0.8),rgba(19, 19, 24, 0) 100%),url('../Images/Group\ 13\ \(1\)\ \(1\).png');
+    backdrop-filter: blur(4px);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+
+  }
+  .where-container{
+    /* position: absolute; */
+    width: auto;
+    height: auto;
+    margin-top: 43px;
+    border-radius: 8px;
+    padding: 16px;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap:10px;
+    background: rgba(255, 255, 255, 0.3);
+    /* border: 2px solid red; */
+ 
+  }
+  .explore-title{
+    font-size: 4rem;
+    font-weight: 800; 
+    margin-bottom: 24px; 
+    color: rgb(255, 255, 255); 
+  }
+  .explore-description{
+    font-size: 1rem;
+    font-weight: 400; 
+    text-align: center;
+  
+    color: rgb(255, 255, 255);
+  }
+
+  .where-container > input, select, button{
+    width: 174px;
+height: 52px; 
+text-align: center;
+  }
+
+
  /* For mobile device */
  @media screen and (max-width: 576px) {
     
@@ -66,4 +124,12 @@ height: 46.8px;
         display: block;
         /* background-color: red; */
     }
+    .where-container{
+        grid-template-columns: 1fr;
+    }
+   
+ }
+ @media screen and (min-width:577px) and (max-width: 992px)
+ {
+    
  }
