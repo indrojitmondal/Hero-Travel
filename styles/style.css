@@ -1,0 +1,69 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+.mulish-font {
+    font-family: "Mulish", sans-serif;
+   
+  }
+  span{
+    color: rgb(255, 84, 0);
+  }
+ 
+  .menuli{
+    list-style: none;
+  }
+  .links{
+    text-decoration: none;
+    color: rgb(66, 66, 71);
+font-family: Mulish;
+font-size: 1.125rem;
+font-weight: 400;
+/* line-height: 23px;
+letter-spacing: 0%; */
+text-align: center;
+  }
+  .logoAndName{
+    display: flex;
+    gap:5px;
+    align-items: center;
+  }
+
+  .nav-links{
+    display: flex;
+    gap: 44px;
+  }
+  .navbar{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+   
+
+  }
+  .container{
+    max-width: 90%;
+    margin: 2rem auto;
+  }
+  .hero-travel, #icon{
+    font-size: 2.25rem;
+    font-weight: 800;
+  }
+  .logoAndName img{
+    width: 35.04px;
+height: 46.8px;
+  }
+  .menubar{
+    display: none;
+  }
+ /* For mobile device */
+ @media screen and (max-width: 576px) {
+    
+    .menu{
+        display: none;
+    }
+    .menubar{
+        display: block;
+        /* background-color: red; */
+    }
+ }
